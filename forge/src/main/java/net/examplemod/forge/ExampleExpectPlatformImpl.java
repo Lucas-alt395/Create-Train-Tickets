@@ -1,4 +1,4 @@
-package net.examplemod.forge;
+package net.createtraintickets.forge;
 
 public class ExampleExpectPlatformImpl {
 	public static String platformName() {
