@@ -1,4 +1,4 @@
-package net.examplemod;
+package net.createtraintickets;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 
