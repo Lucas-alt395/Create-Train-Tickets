@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "createtraintickets",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "Create: Train Tickets",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -11,17 +11,17 @@
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "GPL-v3.0",
+  "icon": "assets/createtraintickets/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "net.createtraintickets.fabric.CreateTrainTicketsFabric"
     ]
   },
   "mixins": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
+    "createtraintickets.mixins.json",
+    "createtraintickets-common.mixins.json"
   ],
   "depends": {
     "minecraft": "${minecraft_version}",
