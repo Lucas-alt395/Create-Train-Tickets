@@ -2,7 +2,7 @@ package net.createtraintickets.fabric;
 
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
 import net.createtraintickets.ExampleBlocks;
-import net.createtraintickets.createtraintickets;
+import net.createtraintickets.CreateTrainTickets;
 import net.fabricmc.api.ModInitializer;
 
 public class CreateTrainTicketsFabric implements ModInitializer {

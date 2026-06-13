@@ -11,6 +11,6 @@ public class ExampleBlocks {
 
 	public static void init() {
 		// load the class and register everything
-		createtraintickets.LOGGER.info("Registering blocks for " + createtraintickets.NAME);
+		CreateTrainTickets.LOGGER.info("Registering blocks for " + CreateTrainTickets.NAME);
 	}
 }
