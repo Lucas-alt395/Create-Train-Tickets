@@ -1,6 +1,6 @@
-package net.examplemod.mixin;
+package net.createtraintickets.mixin;
 
-import net.examplemod.ExampleMod;
+import net.createtraintickets.CreateTrainTickets;
 import net.minecraft.client.gui.screens.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class MixinTitleScreen {
     @Inject(at = @At("HEAD"), method = "init()V")
     private void init(CallbackInfo info) {
-        ExampleMod.LOGGER.info("Hello from {}!", ExampleMod.class.getName());
+        CreateTrainTickets.LOGGER.info("Hello from {}!", CreateTrainTickets.class.getName());
     }
 }
