@@ -21,6 +21,8 @@ subprojects {
         maven { url = "https://maven.blamejared.com/" } // JEI
         maven { url = "https://maven.tterrag.com/" } // Flywheel on both, Create and Registrate on forge
         maven { url = "https://api.modrinth.com/maven/"} // Modrinth??? commit "NOWHYNOTTTTTTTT"
+        maven { url = "https://jmpartners.com/"} // Jozufu??? commit "pls2"
+        maven { url = "https://jitpack.io/"} // Jitpack??? commit "pls2"
     }
 
     dependencies {
