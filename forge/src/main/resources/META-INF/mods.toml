@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/Lucas-alt395/Create-Train-Tickets/issues"
+license = "GPL-3.0"
+
+[[mods]]
+modId = "create_train_tickets"
+version = "${version}"
+displayName = "Create: Train Tickets"
+authors = "TheAmazingLucas"
+description = '''
+An Create addon that adds train tickets.
+'''
+logoFile = "icon.png"
+
+[[dependencies.create_train_tickets]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.create_train_tickets]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.create_train_tickets]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
