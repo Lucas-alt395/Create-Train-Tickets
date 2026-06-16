@@ -1,0 +1,9 @@
+{
+  "item.create_train_tickets.train_ticket": "Treinkaartje",
+  
+  "block.create_train_tickets.turnstile": "Draaihek",
+  "item.create_train_tickets.turnstile": "Draaihek",
+  
+  "block.create_train_tickets.ticket_creator": "Kaartjesautomaat",
+  "item.create_train_tickets.ticket_creator": "Kaartjesautomaat"
+}
