@@ -1,0 +1,9 @@
+{
+  "item.create_train_tickets.train_ticket": "Train Ticket",
+  
+  "block.create_train_tickets.turnstile": "Turnstile",
+  "item.create_train_tickets.turnstile": "Turnstile",
+  
+  "block.create_train_tickets.ticket_creator": "Ticket Creator",
+  "item.create_train_tickets.ticket_creator": "Ticket Creator"
+}
