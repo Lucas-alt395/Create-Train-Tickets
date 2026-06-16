@@ -1,0 +1,9 @@
+{
+  "item.create_train_tickets.train_ticket": "Bilet Kolejowy",
+  
+  "block.create_train_tickets.turnstile": "Kołowrót",
+  "item.create_train_tickets.turnstile": "Kołowrót",
+  
+  "block.create_train_tickets.ticket_creator": "Biletomat",
+  "item.create_train_tickets.ticket_creator": "Biletomat"
+}
